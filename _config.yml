@@ -1,1 +1,17 @@
+repository: matippetts/bff-demo-from-weebly
 theme: jekyll-theme-cayman
+defaults:
+  - scope:
+      type: pages
+      path: ''
+    values:
+      layout: page
+      menu: true
+      menu_title: ''
+      categories: []
+      tags: []
+      open_graph_image_files: []
+      site_name: Bast Strategy
+      image: /assets/images/bff-web-logo_3.png
+plugins:
+  - jekyll-sitemap
