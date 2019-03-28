@@ -15,3 +15,4 @@ defaults:
       image: /assets/images/bff-web-logo_3.png
 plugins:
   - jekyll-sitemap
+google_maps_javascript_api_key: "AIzaSyC8OsftAbWtvcFiT3_MHQAMusSqAJkvw1E"
