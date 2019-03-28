@@ -5,21 +5,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		{% seo %}
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/solid.css" integrity="sha384-n4xPrkfCJ3FzmPwM/Nf1QQu7Qx6oDcsbMp+qPOxrJ5w0Tq19ZWd9ylcMWkzKEpwP" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/regular.css" integrity="sha384-Vma7aWQBdmjVfr98uRd1HcA/r6wPYrlNrIvQBJhDCvZi3X9gVuHtqUKUYep/1KKk" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/brands.css" integrity="sha384-5G2m52y/zN053yjBCyNXXotYpL2r5k1wg9aakiM5OgK9kdcCB68EECUce5vZiz/8" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/fontawesome.css" integrity="sha384-Sbwc59I1SOoVoCGgBCwAe/M1j5a9cHixHv/7x9vOxORnT73jUaxyK0paobkk3JSt" crossorigin="anonymous">		
+		{% include fontawesome.html %}
 		{% include fonts.html%}
 	</head>
 	<body>
-		<div class="container-fluid">
-  			<div class="unite-header">
-				{% include desktop-menu.html %}
-			</div>
+		<header>
+			{% include desktop-menu.html %}
+		</header>
+		<div class="w3-main">
 			{{ content }}
 		</div>
-
-		{% include mobile-menu.html %}
-
 	</body>
 </html>
